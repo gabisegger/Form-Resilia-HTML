@@ -1,0 +1,89 @@
+body{
+    background:#0b0b0b;
+    margin: auto;
+}
+
+header{
+    background: #0b0b0b;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar{
+    padding-left: 20px;
+}
+
+
+.container{
+    display: grid;
+    justify-items: center;
+    background-color: #FFD000;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 50px;
+    padding: 20px 70px 30px;
+}
+
+.title{
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.description{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+form{
+    width: 100%;
+    margin-top: 20px;
+}
+.block-2{
+    display: flex;
+}
+.details-form{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+input{
+    width: 100%;
+    height: 35px;
+    border: white;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.button {
+    width: 50%;
+    margin: auto;
+}
+
+.button input{
+    font-family: 'Archivo', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    background: #0b0b0b;
+    height: 50px;
+    color: #FFD000;
+    cursor: pointer;
+}
+
+.button input:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+    box-shadow: -12px 17px 20px -18px rgb(0 0 0 / 50%);
+}
